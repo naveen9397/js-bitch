@@ -21,7 +21,7 @@ console.log(booleanIsLoggedIn);*/
 // "" => false
 // "binod" => true
 
-let someNumber = 33
+let someNumber = 44
 
 let stringNumber = String(someNumber)
 console.log(typeof stringNumber);
