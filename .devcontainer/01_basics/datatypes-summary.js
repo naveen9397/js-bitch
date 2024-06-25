@@ -32,6 +32,32 @@ const myFunction = function() {
     console.log("hello world");
 }
 
-console.log(typeof scoreValue);
-console.log(typeof myFunction);
-console.log(typeof BigInt);
+// console.log(typeof scoreValue);
+// console.log(typeof myFunction);
+// console.log(typeof BigInt);
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive), heap (Non-primitive)
+
+let myYoutubename = "CODESHWAR"
+
+let anothername = "bobas"
+
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    Upi: "user@bl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "binod123@gmail.com"
+
+console.log(userTwo.email);
+console.log(userOne.email);
